@@ -19,3 +19,4 @@ DarkRP.createDemoteGroup("SGC", {TEAM_SGC, TEAM_SG1, TEAM_SG2, TEAM_SG3, TEAM_SG
 DarkRP.createDemoteGroup("Goa'uld", {TEAM_GOA, TEAM_QUEEN, TEAM_JAF})
 DarkRP.createDemoteGroup("Thieves' Guild", {TEAM_THF, TEAM_MTHF, TEAM_ENF})
 DarkRP.createDemoteGroup("Assassins' Guild", {TEAM_ASS, TEAM_MAS})
+DarkRP.createDemoteGroup("Smugglers' Guild", {TEAM_SMUG, TEAM_MSM})
