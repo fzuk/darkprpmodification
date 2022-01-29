@@ -548,3 +548,60 @@ DarkRP.createEntity("Knife", {
         category = "Other",
     
     })
+
+DarkRP.createEntity("Jeep Seat", {
+        ent = "Seat_Jeep",
+        model = "models/nova/jeep_seat.mdl",
+        price = 5000,
+        max = 1,
+        cmd = "buyjeep",
+        category = "Vehicles",
+    
+    })
+
+DarkRP.createEntity("Airboat Seat", {
+        ent = "Seat_Airboat",
+        model = "models/nova/airboat_seat.mdl",
+        price = 5000,
+        max = 1,
+        cmd = "buyboat",
+        category = "Vehicles",
+    
+    })
+
+DarkRP.createEntity("Printer", { 
+ent = "adv_moneyprinter", 
+model = "models/props_c17/consolebox01a.mdl",
+description = [[It makes cash money, not legal cash moneys.]],
+price = 25000, max = 8, 
+cmd = "buyprinter",
+category = "Printers",
+})
+
+DarkRP.createEntity("Cooler", { 
+ent = "printer_cooler", 
+model = "models/props_lab/reciever01a.mdl",
+description = [[A cooler for your printer.]],
+price = 2500, max = 8, 
+cmd = "buycooler",
+category = "Printers",
+})
+
+DarkRP.createEntity("Failsafe", { 
+ent = "printer_failsafe", 
+model = "models/props_lab/reciever01a.mdl",
+description = [[Keeps your printers from overheating.]],
+price = 1500, max = 0, 
+cmd = "buyfailsafe",
+category = "Printers",
+})
+
+DarkRP.createEntity("Overclocker", { 
+ent = "printer_overclocker", 
+model = "models/props_lab/reciever01b.mdl",
+description = [[Makes your printer print faster, but also heat faster.]],
+price = 3000, max = 8, 
+cmd = "buyoverclocker",
+category = "Printers",
+})
+

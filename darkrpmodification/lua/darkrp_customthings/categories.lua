@@ -198,3 +198,21 @@ DarkRP.createCategory{
     color = Color(19, 14, 48, 255),
     canSee = function(ply) return true end,
 }
+
+DarkRP.createCategory{
+    name = "Vehicles",
+    categorises = "entities",
+    startExpanded = true,
+    color = Color(182, 34, 133, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 105,
+    }
+
+DarkRP.createCategory{
+    name = "Counterfeit Money",
+    categorises = "entities",
+    startExpanded = true,
+    color = Color(95, 63, 127, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 1,
+}
